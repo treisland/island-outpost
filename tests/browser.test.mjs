@@ -12,6 +12,17 @@ test('read, search, switch themes and play a complete deck without downloading',
   await mkdir(new URL('../test-results/',import.meta.url),{recursive:true});
   const context=await browser.newContext({viewport:{width:1440,height:1000}}),page=await context.newPage();
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  // Pages preserves the missing URL while serving the custom error document.
+  await page.route('**/briefings/missing/',async route=>route.fulfill({status:404,contentType:'text/html',body:await readFile(new URL('../dist/404.html',import.meta.url),'utf8')}));
+  await page.goto(base+'/briefings/missing/');
+  assert.equal(await page.locator('h1').innerText(),'Off the map.');
+  assert.equal(await page.locator('link[rel="stylesheet"]').evaluate(el=>el.sheet!==null),true);
+  await page.locator('#theme').selectOption('dark');
+  assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+  assert.equal(await page.locator('.brand').getAttribute('href'),'/');
+  await page.getByRole('link',{name:'Briefings',exact:true}).click();
+  assert.equal(new URL(page.url()).pathname,'/briefings/');
+  await page.locator('#theme').selectOption('light');
   await page.goto(base);await page.screenshot({path:'test-results/home-light.png',fullPage:true});
   assert.equal(await page.locator('h1').count(),1);
   await page.locator('#theme').selectOption('dark');await page.reload();

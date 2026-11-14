@@ -48,5 +48,5 @@ await writeFile(path.join(out,'feed.xml'),`<?xml version="1.0" encoding="UTF-8"?
 await writeFile(path.join(out,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['','briefings/','prompt-lab/','presentations/','about/',...entries.map(url)].map(u=>`<url><loc>${config.url}/${u}</loc></url>`).join('')}</urlset>`);
 await writeFile(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${config.url}/sitemap.xml\n`);
 await writeFile(path.join(out,'.nojekyll'),'');
-await page('404.html',layout('Page not found','This page could not be found.',`<section class="about"><h1>Off the map.</h1><p>The page may have moved. Visit <a href="${e(config.url)}">Island Outpost</a> to find a guide or briefing.</p></section>`,'./'));
+await page('404.html',layout('Page not found','This page could not be found.',`<section class="about"><h1>Off the map.</h1><p>The page may have moved. Visit <a href="${e(config.url)}">Island Outpost</a> to find a guide or briefing.</p></section>`,'/'));
 console.log(`Built ${entries.length} published articles with native playback into dist/`);
