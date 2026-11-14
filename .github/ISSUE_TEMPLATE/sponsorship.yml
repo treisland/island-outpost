@@ -1,0 +1,14 @@
+name: Sponsorship inquiry
+description: Discuss a clearly disclosed sponsorship of independent AI education.
+title: '[Sponsorship] '
+body:
+  - type: markdown
+    attributes:
+      value: This is a public discussion, not an advertising purchase or acceptance. Do not include private contact details or payment information.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Organization and proposal
+      description: Describe the relevant product, audience, and proposed support. Editorial independence and clear disclosure are required.
+    validations:
+      required: true

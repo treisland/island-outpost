@@ -1,0 +1,2374 @@
+{
+  "schemaVersion": 2,
+  "kind": "presentation-studio-project",
+  "meta": {
+    "id": "outpost-anatomy-of-a-useful-prompt-v1",
+    "name": "Give your prompts a clear structure",
+    "updatedAt": "2026-11-13T23:30:00Z"
+  },
+  "playbackOnly": false,
+  "state": {
+    "projectName": "Give your prompts a clear structure",
+    "slides": [
+      {
+        "id": "anatomy-of-a-useful-prompt-1",
+        "title": "Give your prompts a clear structure",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Give your prompts\na clear structure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "A working brief for a useful answer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "TASK"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:24.5%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CONTEXT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:48%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CONSTRAINTS"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:71.5%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "OUTPUT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Give your prompts\na clear structure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "A working brief for a useful answer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "TASK"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:24.5%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CONTEXT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:48%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CONSTRAINTS"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:71.5%;top:84%;width:22%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-0-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "OUTPUT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-0-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "anatomy-of-a-useful-prompt-2",
+        "title": "One request. One job.",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "One request. One job."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Choose the deliverable before adding detail."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Too vague\n\nHelp with this meeting."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Clear task\n\nDraft a follow-up with decisions, actions, and open questions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "One request. One job."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Choose the deliverable before adding detail."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Too vague\n\nHelp with this meeting."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Clear task\n\nDraft a follow-up with decisions, actions, and open questions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "anatomy-of-a-useful-prompt-3",
+        "title": "Build the brief",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Build the brief"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Four parts with different responsibilities."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Task\n\nDraft a team follow-up."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:25%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Context\n\nUse the supplied notes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:49%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Constraints\n\nDo not invent missing facts."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:73%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Output\n\nThree headings; under 120 words."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Build the brief"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Four parts with different responsibilities."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Task\n\nDraft a team follow-up."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:25%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Context\n\nUse the supplied notes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:49%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Constraints\n\nDo not invent missing facts."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:73%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-2-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Output\n\nThree headings; under 120 words."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-2-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "anatomy-of-a-useful-prompt-4",
+        "title": "Keep unknowns unknown",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep unknowns unknown"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "An action deadline is not a launch date."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Supplied evidence\n\nMia proposes a time by Friday. No start date was agreed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Unsupported inference\n\nOffice hours begin Friday."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep unknowns unknown"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "An action deadline is not a launch date."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Supplied evidence\n\nMia proposes a time by Friday. No start date was agreed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Unsupported inference\n\nOffice hours begin Friday."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-3-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "anatomy-of-a-useful-prompt-5",
+        "title": "Change one variable",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Change one variable"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Diagnose the failure before revising the prompt."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Audience unclear\n\nAdd the intended reader."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Facts invented\n\nSpecify the evidence boundary."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Format unusable\n\nDefine fields or headings."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Change one variable"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Diagnose the failure before revising the prompt."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Audience unclear\n\nAdd the intended reader."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Facts invented\n\nSpecify the evidence boundary."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Format unusable\n\nDefine fields or headings."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "anatomy-of-a-useful-prompt-6",
+        "title": "Try it yourself",
+        "group": "anatomy-of-a-useful-prompt-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Try it yourself"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Predict what changes when you remove a section."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nWrite one concrete task."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nAdd only relevant context."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nTest a missing-information case."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Try it yourself"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Predict what changes when you remove a section."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nWrite one concrete task."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nAdd only relevant context."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-anatomy-of-a-useful-prompt-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nTest a missing-information case."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-anatomy-of-a-useful-prompt-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      }
+    ],
+    "trash": [],
+    "loops": {
+      "main": {
+        "name": "Give your prompts a clear structure",
+        "slideIds": [
+          "anatomy-of-a-useful-prompt-1",
+          "anatomy-of-a-useful-prompt-2",
+          "anatomy-of-a-useful-prompt-3",
+          "anatomy-of-a-useful-prompt-4",
+          "anatomy-of-a-useful-prompt-5",
+          "anatomy-of-a-useful-prompt-6"
+        ]
+      }
+    },
+    "brand": {
+      "accent": "#7153bb",
+      "background": "#eee9fb",
+      "ink": "#2c2244",
+      "font": "Arial",
+      "logo": "",
+      "family": "generic",
+      "headerTitle": "ISLAND OUTPOST / PROMPT LAB",
+      "headerSubtitle": "",
+      "edition": "ORIGINAL WORKED EXAMPLES",
+      "presentationTheme": "light"
+    },
+    "media": {},
+    "sectionTrash": [],
+    "sections": [
+      {
+        "id": "anatomy-of-a-useful-prompt-main",
+        "name": "Prompt Lab",
+        "kind": "slides",
+        "product": "generic",
+        "hidden": false,
+        "headerLabel": ""
+      }
+    ],
+    "origin": "blank",
+    "design": {
+      "palette": [],
+      "slides": {
+        "anatomy-of-a-useful-prompt-1": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-0-1": {
+              "name": "PROMPT LAB     01 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-2": {
+              "name": "Give your prompts\na clear structure",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-3": {
+              "name": "A working brief for a useful answer",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-4": {
+              "name": "TASK",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-5": {
+              "name": "CONTEXT",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-6": {
+              "name": "CONSTRAINTS",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-7": {
+              "name": "OUTPUT",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-0-8": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "anatomy-of-a-useful-prompt-2": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-1-1": {
+              "name": "PROMPT LAB     02 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-1-2": {
+              "name": "One request. One job.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-1-3": {
+              "name": "Choose the deliverable before adding detail.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-1-4": {
+              "name": "Too vague\n\nHelp with this meeting.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-1-5": {
+              "name": "Clear task\n\nDraft a follow-up with decisions, actions, and open q",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-1-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "anatomy-of-a-useful-prompt-3": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-2-1": {
+              "name": "PROMPT LAB     03 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-2": {
+              "name": "Build the brief",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-3": {
+              "name": "Four parts with different responsibilities.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-4": {
+              "name": "Task\n\nDraft a team follow-up.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-5": {
+              "name": "Context\n\nUse the supplied notes.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-6": {
+              "name": "Constraints\n\nDo not invent missing facts.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-7": {
+              "name": "Output\n\nThree headings; under 120 words.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-2-8": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "anatomy-of-a-useful-prompt-4": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-3-1": {
+              "name": "PROMPT LAB     04 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-3-2": {
+              "name": "Keep unknowns unknown",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-3-3": {
+              "name": "An action deadline is not a launch date.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-3-4": {
+              "name": "Supplied evidence\n\nMia proposes a time by Friday. No start date w",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-3-5": {
+              "name": "Unsupported inference\n\nOffice hours begin Friday.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-3-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "anatomy-of-a-useful-prompt-5": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-4-1": {
+              "name": "PROMPT LAB     05 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-2": {
+              "name": "Change one variable",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-3": {
+              "name": "Diagnose the failure before revising the prompt.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-4": {
+              "name": "Audience unclear\n\nAdd the intended reader.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-5": {
+              "name": "Facts invented\n\nSpecify the evidence boundary.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-6": {
+              "name": "Format unusable\n\nDefine fields or headings.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-4-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "anatomy-of-a-useful-prompt-6": {
+          "objects": {
+            "block-anatomy-of-a-useful-prompt-5-1": {
+              "name": "PROMPT LAB     06 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#7153bb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-2": {
+              "name": "Try it yourself",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-3": {
+              "name": "Predict what changes when you remove a section.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-4": {
+              "name": "01\n\nWrite one concrete task.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-5": {
+              "name": "02\n\nAdd only relevant context.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-6": {
+              "name": "03\n\nTest a missing-information case.",
+              "style": {
+                "fill": {
+                  "hex": "#7153bb"
+                },
+                "text": {
+                  "hex": "#eee9fb"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-anatomy-of-a-useful-prompt-5-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#2c2244"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "checkpoints": [],
+  "history": {
+    "past": [],
+    "future": []
+  }
+}

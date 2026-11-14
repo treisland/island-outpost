@@ -1,0 +1,2321 @@
+{
+  "schemaVersion": 2,
+  "kind": "presentation-studio-project",
+  "meta": {
+    "id": "outpost-evaluate-the-answer-v1",
+    "name": "Test outputs before you trust them",
+    "updatedAt": "2026-11-13T23:30:00Z"
+  },
+  "playbackOnly": false,
+  "state": {
+    "projectName": "Test outputs before you trust them",
+    "slides": [
+      {
+        "id": "evaluate-the-answer-1",
+        "title": "Test outputs before you trust them",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Test outputs before\nyou trust them"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Turn “looks good” into checks you can explain."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CRITERIA"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:32.33333333333333%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CASES"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:63.66666666666666%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "EVIDENCE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Test outputs before\nyou trust them"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Turn “looks good” into checks you can explain."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CRITERIA"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:32.33333333333333%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "CASES"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:63.66666666666666%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "EVIDENCE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-0-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "evaluate-the-answer-2",
+        "title": "Fluent does not mean correct",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Fluent does not mean correct"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Fictional meeting-action extraction."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Source note\n\nJon sends the draft. No date agreed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Expected result\n\nOwner: Jon. Due date: unknown."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Fluent does not mean correct"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Fictional meeting-action extraction."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Source note\n\nJon sends the draft. No date agreed."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Expected result\n\nOwner: Jon. Due date: unknown."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "evaluate-the-answer-3",
+        "title": "Use a small rubric",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Use a small rubric"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Check different failure modes independently."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Complete\n\nEvery explicit action appears."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:25%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Grounded\n\nOwners and dates have evidence."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:49%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Honest\n\nMissing facts stay unknown."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:73%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Usable\n\nFields match the agreed format."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Use a small rubric"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Check different failure modes independently."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Complete\n\nEvery explicit action appears."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:25%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Grounded\n\nOwners and dates have evidence."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:49%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Honest\n\nMissing facts stay unknown."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:73%;top:47%;width:23%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-2-7"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:28px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Usable\n\nFields match the agreed format."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-2-8 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "evaluate-the-answer-4",
+        "title": "Build a held-out set",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Build a held-out set"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Include ordinary work and awkward inputs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Ordinary\n\nClear tasks, owners, and dates."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Boundary cases\n\nNo actions; conflicting dates; quoted instructions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Build a held-out set"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Include ordinary work and awkward inputs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Ordinary\n\nClear tasks, owners, and dates."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Boundary cases\n\nNo actions; conflicting dates; quoted instructions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-3-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "evaluate-the-answer-5",
+        "title": "Compare controlled changes",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Compare controlled changes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Record enough to reproduce the comparison."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Version\n\nPrompt and model identifier."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Run\n\nDate, settings, and exact input."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Result\n\nOutput, failures, and variation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Compare controlled changes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Record enough to reproduce the comparison."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Version\n\nPrompt and model identifier."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Run\n\nDate, settings, and exact input."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Result\n\nOutput, failures, and variation."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "evaluate-the-answer-6",
+        "title": "Keep a human decision",
+        "group": "evaluate-the-answer-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep a human decision"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Set escalation rules before automating acceptance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nAgree on the expected answer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nInspect regressions as well as wins."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nRetain evidence for review."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep a human decision"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Set escalation rules before automating acceptance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nAgree on the expected answer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nInspect regressions as well as wins."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-evaluate-the-answer-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nRetain evidence for review."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-evaluate-the-answer-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      }
+    ],
+    "trash": [],
+    "loops": {
+      "main": {
+        "name": "Test outputs before you trust them",
+        "slideIds": [
+          "evaluate-the-answer-1",
+          "evaluate-the-answer-2",
+          "evaluate-the-answer-3",
+          "evaluate-the-answer-4",
+          "evaluate-the-answer-5",
+          "evaluate-the-answer-6"
+        ]
+      }
+    },
+    "brand": {
+      "accent": "#56d9ca",
+      "background": "#142839",
+      "ink": "#eff5fa",
+      "font": "Arial",
+      "logo": "",
+      "family": "generic",
+      "headerTitle": "ISLAND OUTPOST / PROMPT LAB",
+      "headerSubtitle": "",
+      "edition": "ORIGINAL WORKED EXAMPLES",
+      "presentationTheme": "dark"
+    },
+    "media": {},
+    "sectionTrash": [],
+    "sections": [
+      {
+        "id": "evaluate-the-answer-main",
+        "name": "Prompt Lab",
+        "kind": "slides",
+        "product": "generic",
+        "hidden": false,
+        "headerLabel": ""
+      }
+    ],
+    "origin": "blank",
+    "design": {
+      "palette": [],
+      "slides": {
+        "evaluate-the-answer-1": {
+          "objects": {
+            "block-evaluate-the-answer-0-1": {
+              "name": "PROMPT LAB     01 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-2": {
+              "name": "Test outputs before\nyou trust them",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-3": {
+              "name": "Turn “looks good” into checks you can explain.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-4": {
+              "name": "CRITERIA",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-5": {
+              "name": "CASES",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-6": {
+              "name": "EVIDENCE",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-0-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "evaluate-the-answer-2": {
+          "objects": {
+            "block-evaluate-the-answer-1-1": {
+              "name": "PROMPT LAB     02 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-1-2": {
+              "name": "Fluent does not mean correct",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-1-3": {
+              "name": "Fictional meeting-action extraction.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-1-4": {
+              "name": "Source note\n\nJon sends the draft. No date agreed.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-1-5": {
+              "name": "Expected result\n\nOwner: Jon. Due date: unknown.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-1-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "evaluate-the-answer-3": {
+          "objects": {
+            "block-evaluate-the-answer-2-1": {
+              "name": "PROMPT LAB     03 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-2": {
+              "name": "Use a small rubric",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-3": {
+              "name": "Check different failure modes independently.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-4": {
+              "name": "Complete\n\nEvery explicit action appears.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-5": {
+              "name": "Grounded\n\nOwners and dates have evidence.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-6": {
+              "name": "Honest\n\nMissing facts stay unknown.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-7": {
+              "name": "Usable\n\nFields match the agreed format.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-2-8": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "evaluate-the-answer-4": {
+          "objects": {
+            "block-evaluate-the-answer-3-1": {
+              "name": "PROMPT LAB     04 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-3-2": {
+              "name": "Build a held-out set",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-3-3": {
+              "name": "Include ordinary work and awkward inputs.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-3-4": {
+              "name": "Ordinary\n\nClear tasks, owners, and dates.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-3-5": {
+              "name": "Boundary cases\n\nNo actions; conflicting dates; quoted instruction",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-3-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "evaluate-the-answer-5": {
+          "objects": {
+            "block-evaluate-the-answer-4-1": {
+              "name": "PROMPT LAB     05 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-2": {
+              "name": "Compare controlled changes",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-3": {
+              "name": "Record enough to reproduce the comparison.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-4": {
+              "name": "Version\n\nPrompt and model identifier.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-5": {
+              "name": "Run\n\nDate, settings, and exact input.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-6": {
+              "name": "Result\n\nOutput, failures, and variation.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-4-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "evaluate-the-answer-6": {
+          "objects": {
+            "block-evaluate-the-answer-5-1": {
+              "name": "PROMPT LAB     06 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#56d9ca"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-2": {
+              "name": "Keep a human decision",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-3": {
+              "name": "Set escalation rules before automating acceptance.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-4": {
+              "name": "01\n\nAgree on the expected answer.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-5": {
+              "name": "02\n\nInspect regressions as well as wins.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-6": {
+              "name": "03\n\nRetain evidence for review.",
+              "style": {
+                "fill": {
+                  "hex": "#56d9ca"
+                },
+                "text": {
+                  "hex": "#142839"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-evaluate-the-answer-5-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#eff5fa"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "checkpoints": [],
+  "history": {
+    "past": [],
+    "future": []
+  }
+}

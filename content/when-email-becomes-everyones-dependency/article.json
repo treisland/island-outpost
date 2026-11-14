@@ -1,0 +1,86 @@
+{
+  "id": "when-email-becomes-everyones-dependency",
+  "title": "When email becomes everyone’s dependency",
+  "section": "briefings",
+  "topic": "Reliability",
+  "format": "Incident field notes",
+  "minutes": 7,
+  "summary": "A dated look at the Microsoft 365 outage, shared dependencies, and why recovery needs more than a green status light.",
+  "snapshot": "Research snapshot: November 13, 2026, 22:00 UTC. This is an incident briefing, not a final postmortem or live status report.",
+  "sources": [
+    {
+      "label": "Microsoft administrative incident updates, publicly mirrored by Penn",
+      "url": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+    },
+    {
+      "label": "Anthropic: Microsoft 365 connector incident",
+      "url": "https://status.claude.com/incidents/sqn3fg1l96dl"
+    },
+    {
+      "label": "Microsoft service health — current status",
+      "url": "https://status.cloud.microsoft/"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Describe the task, not just the app"
+    },
+    {
+      "type": "paragraph",
+      "text": "The November 12–13 Microsoft 365 incident is a useful case study in shared dependencies. Microsoft’s incident communications distinguished disrupted Exchange-backed experiences from functions that continued working. At the November 13, 22:00 UTC snapshot, sustained recovery and extended monitoring were reported while queued email continued processing. These observations describe that reporting window; they are not a final account of the incident."
+    },
+    {
+      "type": "paragraph",
+      "text": "A status label such as “Teams affected” is too broad to guide a team’s response. Calendar-dependent scenarios and core calling or messaging can have different outcomes. The practical question is whether a particular workflow can complete, with its required data and upstream services."
+    },
+    {
+      "type": "heading",
+      "text": "Separate evidence from the explanation"
+    },
+    {
+      "type": "paragraph",
+      "text": "During recovery, Microsoft described an earlier capacity-upgrade issue surfacing after a network change. A recovery update is not a complete engineering analysis. The final causal chain, impact measurements, and prevention work require subsequent evidence. The diagrams in the accompanying deck are original teaching models, not Microsoft’s internal architecture."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthropic’s separate connector incident offers a downstream example: mail, calendar, and search integrations can reflect a supplier’s disruption inside a different product. Its reported error window and resolution belong to that specific connector incident. They should not be read as evidence that every feature of the downstream product failed, or that the upstream provider had fully recovered."
+    },
+    {
+      "type": "heading",
+      "text": "Define what recovery means"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Access: can a representative user begin the task?",
+        "Completion: does the task finish, including delayed or queued work?",
+        "Stability: does successful operation continue under normal demand?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These are discussion prompts for your own incident exercise. They are not claims about Microsoft’s private runbooks. Ask who owns the decision, what evidence will be checked, and which approved communication channel will carry the next update."
+    },
+    {
+      "type": "heading",
+      "text": "Try a tabletop exercise"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your inbox opens again, but colleagues still report missing invitations and delayed messages. What evidence would justify declaring your team’s workflow healthy? List the end-to-end checks, assign an owner, and decide when to reassess. Keep the dated source record alongside the exercise so later readers can distinguish historical observations from current status."
+    }
+  ],
+  "status": "published",
+  "author": "Island Outpost",
+  "license": "Apache-2.0",
+  "tags": [
+    "reliability",
+    "education"
+  ],
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cover": "cover.png",
+  "deck": "deck.json",
+  "playback": "playback.html"
+}
