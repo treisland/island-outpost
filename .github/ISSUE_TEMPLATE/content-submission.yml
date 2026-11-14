@@ -1,0 +1,48 @@
+name: Content submission or correction
+description: Propose a sourced article and editable presentation, or correct an existing entry.
+title: '[Content] '
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Reader outcome and scope
+      description: Audience, proposed section/topic, and what the reader will learn. For corrections, link the entry and describe the error.
+    validations:
+      required: true
+  - type: textarea
+    id: article
+    attributes:
+      label: Article or proposed correction
+      description: Original explanation, examples, limitations, and research snapshot date where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and evidence
+      description: Link primary sources; include dates and distinguish facts from analysis. Do not claim measured model results without the model/version/settings and actual test record.
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Presentation assets
+      description: Attach native Studio JSON, matching standalone playback HTML, and a cover. ZIP files if needed; external hosting is optional. Up to four extra screenshots can help review but are not required. Corrections may explain which assets are affected.
+    validations:
+      required: true
+  - type: input
+    id: attribution
+    attributes:
+      label: Author and content license
+      placeholder: Your name — Apache-2.0 (or another declared compatible license)
+    validations:
+      required: true
+  - type: checkboxes
+    id: review
+    attributes:
+      label: Submission review
+      options:
+        - label: I have rights to contribute this content and have excluded private or customer information.
+          required: true
+        - label: I understand this is a review request and does not automatically publish content.
+          required: true

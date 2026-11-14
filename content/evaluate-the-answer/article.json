@@ -1,0 +1,86 @@
+{
+  "id": "evaluate-the-answer",
+  "title": "Test outputs before you trust them",
+  "section": "prompt-lab",
+  "topic": "Evaluation",
+  "format": "Hands-on exercise",
+  "minutes": 6,
+  "summary": "Build a small, repeatable evaluation set and turn “looks good” into checks you can explain.",
+  "sources": [
+    {
+      "label": "Anthropic: Develop test cases",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Define success before running"
+    },
+    {
+      "type": "paragraph",
+      "text": "A polished answer can still be wrong in a way that matters to the workflow. Start with observable success criteria. For a fictional meeting-action extractor, a useful answer identifies each explicit action, preserves its owner and due date, and leaves missing facts unknown. Fluency alone is not an adequate test."
+    },
+    {
+      "type": "heading",
+      "text": "Write a small rubric"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Completeness: every explicit action appears once.",
+        "Grounding: each owner, date, and task is supported by the input.",
+        "Unknowns: missing owners or dates are marked unknown.",
+        "Format: the answer matches the agreed field names and structure."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Use pass/fail checks where the requirement is binary. Keep judgment-based criteria separate and write down examples of what counts as acceptable. If humans cannot agree on the expected answer, resolve the specification before treating the disagreement as a model failure."
+    },
+    {
+      "type": "heading",
+      "text": "Keep a held-out test set"
+    },
+    {
+      "type": "code",
+      "text": "Case: “Jon will send the draft. We will decide the review date later.”\nExpected task: send the draft\nExpected owner: Jon\nExpected due date: unknown\nReject: a fabricated deadline or a review-date decision.\n\nAdd cases for: no actions, two owners, conflicting dates, and instructions embedded inside quoted notes."
+    },
+    {
+      "type": "paragraph",
+      "text": "These are illustrative cases, not published performance measurements. Store test inputs and expected results separately from prompt examples. Start small enough to inspect every failure. Include ordinary inputs as well as edge cases; a test set made only of tricks says little about daily usefulness."
+    },
+    {
+      "type": "heading",
+      "text": "Compare controlled changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Record the prompt version, model identifier, date, settings, inputs, and outputs. Change one meaningful factor at a time. Rerun the same cases and inspect both regressions and improvements. If the service is nondeterministic, repeated runs may reveal variation that a single pass hides; do not present a small sample as a universal accuracy estimate."
+    },
+    {
+      "type": "heading",
+      "text": "Keep the human decision"
+    },
+    {
+      "type": "paragraph",
+      "text": "Decide which failures require escalation and which outputs can be accepted automatically. High-impact work needs review proportionate to its consequences. Automated checks can catch structure errors and some unsupported values, but they cannot establish truth for every open-ended claim. Retain the evidence needed to audit the decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exercise: compare two versions of your own prompt on five held-out notes. Write one sentence explaining each failure. Use that record to decide the next change instead of selecting the response that merely sounds more confident."
+    }
+  ],
+  "status": "published",
+  "author": "Island Outpost",
+  "license": "Apache-2.0",
+  "tags": [
+    "evaluation",
+    "education"
+  ],
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cover": "cover.png",
+  "deck": "deck.json",
+  "playback": "playback.html"
+}

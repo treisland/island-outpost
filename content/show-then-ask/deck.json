@@ -1,0 +1,2268 @@
+{
+  "schemaVersion": 2,
+  "kind": "presentation-studio-project",
+  "meta": {
+    "id": "outpost-show-then-ask-v1",
+    "name": "Teach with examples",
+    "updatedAt": "2026-11-13T23:30:00Z"
+  },
+  "playbackOnly": false,
+  "state": {
+    "projectName": "Teach with examples",
+    "slides": [
+      {
+        "id": "show-then-ask-1",
+        "title": "Teach with examples",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Teach with\nexamples"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Show the distinction, then ask for a new decision."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "RULE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:32.33333333333333%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "EXAMPLES"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:63.66666666666666%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "NEW INPUT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     01 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:20%;width:72%;height:40%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:82px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Teach with\nexamples"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:66%;width:85%;height:13%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:34px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Show the distinction, then ask for a new decision."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "RULE"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:32.33333333333333%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "EXAMPLES"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:63.66666666666666%;top:84%;width:29.333333333333332%;height:9%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-0-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:23px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "NEW INPUT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-0-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "show-then-ask-2",
+        "title": "Examples teach a boundary",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Examples teach a boundary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Fictional support-queue exercise."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Access\n\nSign-in and password problems."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Billing\n\nCharges and invoice errors."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     02 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Examples teach a boundary"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Fictional support-queue exercise."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-1-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Access\n\nSign-in and password problems."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-1-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Billing\n\nCharges and invoice errors."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-1-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "show-then-ask-3",
+        "title": "The mixed case matters",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "The mixed case matters"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Classify the issue blocking the requested action."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Invoice has wrong total\n\nCan sign in → billing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Cannot download invoice\n\nCannot sign in → access"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     03 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "The mixed case matters"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Classify the issue blocking the requested action."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-2-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Invoice has wrong total\n\nCan sign in → billing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:51%;top:46%;width:45%;height:38%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-2-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:31px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Cannot download invoice\n\nCannot sign in → access"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-2-6 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "show-then-ask-4",
+        "title": "Keep a consistent pattern",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep a consistent pattern"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "A demonstration is also a format specification."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Message\n\nMy password reset link expired."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Label\n\naccess"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Output\n\nOne label from the allowed set."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     04 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Keep a consistent pattern"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "A demonstration is also a format specification."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Message\n\nMy password reset link expired."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Label\n\naccess"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-3-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Output\n\nOne label from the allowed set."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-3-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "show-then-ask-5",
+        "title": "Hold some cases back",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Hold some cases back"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Do not turn the whole test set into examples."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Ordinary\n\nOne clear case per label."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Boundary\n\nA mixed or ambiguous request."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Adversarial\n\nInstructions inside quoted input."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     05 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Hold some cases back"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Do not turn the whole test set into examples."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Ordinary\n\nOne clear case per label."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Boundary\n\nA mixed or ambiguous request."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-4-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Adversarial\n\nInstructions inside quoted input."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-4-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      },
+      {
+        "id": "show-then-ask-6",
+        "title": "Improve the policy first",
+        "group": "show-then-ask-main",
+        "template": "blank",
+        "classes": "wide",
+        "tree": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Improve the policy first"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "If reviewers disagree, clarify the rule."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nWrite the expected label first."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nRun held-out cases."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nReview errors and version changes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "duration": 60,
+        "hidden": false,
+        "notes": "Original illustrative exercise, not measured model results. https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "topic": "Prompt engineering",
+        "commands": null,
+        "templateCommands": null,
+        "templateBase": [
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:2%;width:95%;height:7.000000000000001%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-1 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:22px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "PROMPT LAB     06 / 6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:13%;width:97%;height:15%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-2 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:60px;line-height:1.2;margin:0;white-space:pre-line;font-weight:700"
+                },
+                "children": [
+                  {
+                    "text": "Improve the policy first"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:31%;width:96%;height:9%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-3 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:30px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "If reviewers disagree, clarify the rule."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:1%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-4"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "01\n\nWrite the expected label first."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:33%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-5"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "02\n\nRun held-out cases."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:65%;top:47%;width:30.66666666666667%;height:36%;z-index:4",
+              "class": "db-block card db-rectangle block-show-then-ask-5-6"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:32px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "03\n\nReview errors and version changes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "position:absolute;left:0%;top:95%;width:98%;height:4.5%;z-index:4",
+              "class": "db-block card db-text block-show-then-ask-5-7 db-template tp-display-block tp-pad-0"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "style": "font-size:18px;line-height:1.2;margin:0;white-space:pre-line;font-weight:400"
+                },
+                "children": [
+                  {
+                    "text": "Original illustrative examples · Sources and editable files at islandoutpost.dev"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templateClasses": "wide"
+      }
+    ],
+    "trash": [],
+    "loops": {
+      "main": {
+        "name": "Teach with examples",
+        "slideIds": [
+          "show-then-ask-1",
+          "show-then-ask-2",
+          "show-then-ask-3",
+          "show-then-ask-4",
+          "show-then-ask-5",
+          "show-then-ask-6"
+        ]
+      }
+    },
+    "brand": {
+      "accent": "#28765b",
+      "background": "#e4f1e9",
+      "ink": "#17362d",
+      "font": "Arial",
+      "logo": "",
+      "family": "generic",
+      "headerTitle": "ISLAND OUTPOST / PROMPT LAB",
+      "headerSubtitle": "",
+      "edition": "ORIGINAL WORKED EXAMPLES",
+      "presentationTheme": "light"
+    },
+    "media": {},
+    "sectionTrash": [],
+    "sections": [
+      {
+        "id": "show-then-ask-main",
+        "name": "Prompt Lab",
+        "kind": "slides",
+        "product": "generic",
+        "hidden": false,
+        "headerLabel": ""
+      }
+    ],
+    "origin": "blank",
+    "design": {
+      "palette": [],
+      "slides": {
+        "show-then-ask-1": {
+          "objects": {
+            "block-show-then-ask-0-1": {
+              "name": "PROMPT LAB     01 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-2": {
+              "name": "Teach with\nexamples",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-3": {
+              "name": "Show the distinction, then ask for a new decision.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-4": {
+              "name": "RULE",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-5": {
+              "name": "EXAMPLES",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-6": {
+              "name": "NEW INPUT",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-0-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "show-then-ask-2": {
+          "objects": {
+            "block-show-then-ask-1-1": {
+              "name": "PROMPT LAB     02 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-1-2": {
+              "name": "Examples teach a boundary",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-1-3": {
+              "name": "Fictional support-queue exercise.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-1-4": {
+              "name": "Access\n\nSign-in and password problems.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-1-5": {
+              "name": "Billing\n\nCharges and invoice errors.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-1-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "show-then-ask-3": {
+          "objects": {
+            "block-show-then-ask-2-1": {
+              "name": "PROMPT LAB     03 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-2-2": {
+              "name": "The mixed case matters",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-2-3": {
+              "name": "Classify the issue blocking the requested action.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-2-4": {
+              "name": "Invoice has wrong total\n\nCan sign in → billing",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-2-5": {
+              "name": "Cannot download invoice\n\nCannot sign in → access",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-2-6": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "show-then-ask-4": {
+          "objects": {
+            "block-show-then-ask-3-1": {
+              "name": "PROMPT LAB     04 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-2": {
+              "name": "Keep a consistent pattern",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-3": {
+              "name": "A demonstration is also a format specification.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-4": {
+              "name": "Message\n\nMy password reset link expired.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-5": {
+              "name": "Label\n\naccess",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-6": {
+              "name": "Output\n\nOne label from the allowed set.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-3-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "show-then-ask-5": {
+          "objects": {
+            "block-show-then-ask-4-1": {
+              "name": "PROMPT LAB     05 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-2": {
+              "name": "Hold some cases back",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-3": {
+              "name": "Do not turn the whole test set into examples.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-4": {
+              "name": "Ordinary\n\nOne clear case per label.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-5": {
+              "name": "Boundary\n\nA mixed or ambiguous request.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-6": {
+              "name": "Adversarial\n\nInstructions inside quoted input.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-4-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        },
+        "show-then-ask-6": {
+          "objects": {
+            "block-show-then-ask-5-1": {
+              "name": "PROMPT LAB     06 / 6",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#28765b"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-2": {
+              "name": "Improve the policy first",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-3": {
+              "name": "If reviewers disagree, clarify the rule.",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-4": {
+              "name": "01\n\nWrite the expected label first.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-5": {
+              "name": "02\n\nRun held-out cases.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-6": {
+              "name": "03\n\nReview errors and version changes.",
+              "style": {
+                "fill": {
+                  "hex": "#28765b"
+                },
+                "text": {
+                  "hex": "#e4f1e9"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            },
+            "block-show-then-ask-5-7": {
+              "name": "Original illustrative examples · Sources and editable files at is",
+              "style": {
+                "fill": "transparent",
+                "text": {
+                  "hex": "#17362d"
+                },
+                "border": "transparent",
+                "borderWidth": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "checkpoints": [],
+  "history": {
+    "past": [],
+    "future": []
+  }
+}

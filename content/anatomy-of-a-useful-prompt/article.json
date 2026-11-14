@@ -1,0 +1,78 @@
+{
+  "id": "anatomy-of-a-useful-prompt",
+  "title": "Give your prompts a clear structure",
+  "section": "prompt-lab",
+  "topic": "Structure",
+  "format": "Practical guide",
+  "minutes": 5,
+  "summary": "Turn a vague request into a usable task with context, constraints, and a clear output shape.",
+  "sources": [
+    {
+      "label": "Google: Prompt design strategies",
+      "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Start with the job"
+    },
+    {
+      "type": "paragraph",
+      "text": "A useful prompt starts with a decision about the work you want done. “Help with this meeting” leaves several jobs open: summarizing a transcript, identifying decisions, drafting an email, or checking unresolved questions. Choose one primary job before adding instructions. A longer prompt is useful only when the extra information resolves a real ambiguity."
+    },
+    {
+      "type": "heading",
+      "text": "Use a small working brief"
+    },
+    {
+      "type": "paragraph",
+      "text": "Separate the task, supplied evidence, constraints, and desired output. This is an organizing technique, not a special syntax that every model requires. Keep private or restricted information out of tools that are not approved for that material. The following meeting notes are fictional."
+    },
+    {
+      "type": "code",
+      "text": "Task: Draft a follow-up for the project team.\nContext: The team agreed to trial a weekly office hour. Mia will propose a time by Friday. No start date was agreed.\nConstraints: Use only these notes. Mark missing facts as unknown. Do not invent decisions or deadlines.\nOutput: Three headings: Decisions, Actions, Open questions. Keep the total under 120 words."
+    },
+    {
+      "type": "heading",
+      "text": "Make missing information visible"
+    },
+    {
+      "type": "paragraph",
+      "text": "The notes contain one agreed trial, one action with an owner and deadline, and one unresolved start date. A useful response should preserve those distinctions. “Weekly office hours begin Friday” would turn an action deadline into an invented launch date. Check that the result can be traced back to the supplied evidence."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Task: is there one clear deliverable?",
+        "Context: are the necessary facts present and separated from instructions?",
+        "Constraints: what must the answer preserve or avoid inventing?",
+        "Output: can a reader use the result without reformatting it?"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Revise one variable"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the result misses the audience, add the audience. If it invents dates, make the unknown-value rule explicit and test it. Avoid changing the task, examples, tone, and length all at once: that makes it difficult to understand what helped. This guide provides an illustrative exercise, not measured results for a specific model."
+    },
+    {
+      "type": "paragraph",
+      "text": "Try removing one section of the prompt and predicting which failure becomes more likely. Then compare actual outputs using the same input and model settings. Record what happened rather than assuming the template always improves performance."
+    }
+  ],
+  "status": "published",
+  "author": "Island Outpost",
+  "license": "Apache-2.0",
+  "tags": [
+    "structure",
+    "education"
+  ],
+  "published": "2026-11-13",
+  "updated": "2026-11-13",
+  "cover": "cover.png",
+  "deck": "deck.json",
+  "playback": "playback.html"
+}
