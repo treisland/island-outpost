@@ -13,6 +13,6 @@
     "serve": "node scripts/serve.mjs",
     "new-content": "node scripts/new-content.mjs"
   },
-  "devDependencies": {"playwright": "1.62.1"},
+  "devDependencies": {"playwright": "1.65.0"},
   "license": "Apache-2.0"
 }
