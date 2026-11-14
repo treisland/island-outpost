@@ -4,9 +4,16 @@ import {readFile,mkdtemp,mkdir,writeFile,cp,rm} from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
 import {validateArticle,loadContent,escape} from '../scripts/content.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const base=JSON.parse(await readFile(new URL('../content/anatomy-of-a-useful-prompt/article.json',import.meta.url),'utf8'));
+test('deployment explains disabled state and rejects a mismatched domain',()=>{
+ const script=path.join(root,'scripts/pages-config.mjs');
+ const env={...process.env,GITHUB_OUTPUT:'',GITHUB_STEP_SUMMARY:'',GITHUB_REF:'refs/heads/a-feature',PAGES_ENABLED:'true'};
+ assert.match(execFileSync(process.execPath,[script],{env,encoding:'utf8'}),/Deployment is disabled/);
+ assert.throws(()=>execFileSync(process.execPath,[script],{env:{...env,GITHUB_REF:'refs/heads/main',PAGES_DOMAIN:'another.example'},stdio:'pipe'}));
+});
 test('published entries have matching native playback and complete assets',async()=>{
  const {entries}=await loadContent(root);assert.equal(entries.length,4);assert.ok(entries.every(a=>a.slideCount>=6));
 });
